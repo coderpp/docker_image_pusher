@@ -5,8 +5,8 @@ on:
   push:
     paths:
       - 'images.txt'       # 仅当 images.txt 文件发生变更时触发
-  schedule:
-    - cron: '00 23 * * *'
+  # schedule:
+  #   - cron: '00 23 * * *'
 
 
 env:
