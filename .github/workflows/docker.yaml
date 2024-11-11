@@ -2,9 +2,9 @@ name: Docker
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'images.txt'       # 仅当 images.txt 文件发生变更时触发
+  # push:
+  #   paths:
+  #     - 'images.txt'       # 仅当 images.txt 文件发生变更时触发
   # schedule:
   #   - cron: '00 23 * * *'
 
