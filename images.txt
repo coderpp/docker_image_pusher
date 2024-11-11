@@ -38,10 +38,13 @@ bitnami/mysql
 --platform=linux/arm64 bitnami/mysql
 
 # 其他
+moelin/1panel
 portainer/portainer-ce
 jeessy/ddns-go
 fradelg/mysql-cron-backup
 directus/directus:latest
+directus/directus:10.13.1
+
 
 
 ## ARM 架构
