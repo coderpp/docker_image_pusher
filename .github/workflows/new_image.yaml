@@ -1,0 +1,20 @@
+name: Run CI on specific file changes
+
+on:
+  push:
+    paths:
+      - 'new_images.txt'       # 仅当 new_images.txt 文件发生变更时触发
+  pull_request:
+    paths:
+      - 'new_images.txt'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run build script
+        run: echo "Running build script..."
