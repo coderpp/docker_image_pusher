@@ -1,1 +1,1 @@
-istepanov/mongodump
+louislam/uptime-kuma:1.23.15
